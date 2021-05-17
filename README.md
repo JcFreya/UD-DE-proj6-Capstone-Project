@@ -71,7 +71,7 @@ The project will work with four datasets to complete the project. The main datas
 	- coordinates
 ### Folder Structure
 -   **etl.py**  - reads data from S3, processes that data using Spark, and writes them back to S3
--   **etl_functions.py, utility.py**  - contains the functions for creating fact and dimension tables, data visualizations and cleaning.
+-   **etl_utils.py, utils.py**  - contains the functions for creating fact and dimension tables, data visualizations and cleaning.
 -   **config.cfg**  - contains configuration and AWS credentials
 -   **capstone-project.ipynb**  - import data, clean and process the data based on basic EDA, design the pipeline
 
